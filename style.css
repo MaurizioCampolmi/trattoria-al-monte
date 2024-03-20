@@ -25,3 +25,13 @@
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
+
+.overlay {
+    position: absolute;
+    top: 50%; /* Posiziona il quadrato al centro verticale */
+    left: 50%; /* Posiziona il quadrato al centro orizzontale */
+    transform: translate(-50%, -57%); /* Sposta il quadrato di metà della sua dimensione */
+    width: 100%; /* Larghezza del quadrato */
+    height: 88%; /* Altezza del quadrato */
+    background-color: #9c434363; /* Colore di sfondo del quadrato con trasparenza */
+  }
