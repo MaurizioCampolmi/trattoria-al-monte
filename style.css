@@ -7,9 +7,14 @@
 .navbar {
     background-color: #9C4343;
     height: 80px;
-    position: fixed;
     padding-top: 2px !important;
 }
+.navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Assicura che la navbar sia sopra altri contenuti */
+  }
 
 .menu-item {
     color: white;
