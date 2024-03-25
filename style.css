@@ -6,69 +6,72 @@
 
 .navbar {
     background-color: #9C4343;
-    height: 80px;
+    height: 60px;
     padding-top: 2px !important;
+    z-index: 1000;
 }
 .navbar.fixed-top {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000; /* Assicura che la navbar sia sopra altri contenuti */
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
 .menu-item {
     color: white;
     font-family: "Jockey One", sans-serif;
     text-align: center;
-    margin: 0;
+    padding-bottom: 32pt;
 }
 
 .foto-carbonara {
     width: 100%;
+    height: 86%;
 }
 
 .foto {
     padding-left: 0px !important;
     padding-right: 0px !important;
-}
-
-.overlay {
-    position: absolute;
-    top: 83%;
-    left: 78%;
-    transform: translate(-50%, -50%);
-    width: 44%;
-    height: 34%;
-    background-color: #d9d9d9c5;
+    height: fit-content;
 }
 
 .immagine {
     border: 4px solid #484545;
     border-radius: 50%;
     width: 26%;
+    top: 50%; /* Posiziona l'immagine al centro verticalmente */
+    left: 50%; /* Posiziona l'immagine al centro orizzontalmente */
     
 }
 
-.div-menu-item {
-    padding: 0px !important;
+.nome-sezione{
+    font-family: "Jockey One", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 50pt;
 }
 
-.foto {
-    text-align: end;
-    margin-right: 2%;
+.titolo-sezione{
+    background-color: #9C4343;
 }
 
-#titolo {
-    font-size: 80pt;
-    color: #9C4343;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #D9D9D9;
-    margin-bottom: -25px;
+.sezione{
+    background-color: #f5f5f5;
+    padding: 20px
 }
 
-#sottotitolo {
-    font-size: 40pt;
-    color: #9C4343;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #D9D9D9;
+#immagine-esterno{
+    width: 100%;
+    border: 4px solid #484545;
+    border-radius: 100%;
 }
+
+.div-immagine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
