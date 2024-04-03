@@ -11,6 +11,10 @@
     z-index: 1000;
 }
 
+p{
+    font-size: 18pt;
+}
+
 #logo-navbar{
     position: absolute;
     margin-top: -20px;
