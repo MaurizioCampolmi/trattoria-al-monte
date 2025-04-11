@@ -16,8 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
     
     <!-- link per bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"></head>
 <body>
     
     <div class="container-fluid">
@@ -67,16 +66,40 @@
         </div>
         <div class="row sezione">
             <div class="col-lg-6 col-md-6 div-immagine">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="res/SH_coda_alla_vaccinara1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="res/esterno.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="res/SH_coda_alla_vaccinara1.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 div-immagine">   
                 <p>
-                La nostra trattoria è rinomata per offrire una deliziosa selezione di piatti della cucina romana, preparati con passione e maestria.
-                Immergetevi nei sapori autentici di Roma con piatti iconici come la Carbonara, preparata con guanciale croccante, uova, pecorino romano e pepe nero. Oppure gustatevi la Cacio e Pepe, un piatto semplice ma straordinario fatto con solo tre ingredienti: pecorino romano, pepe nero e pasta.
-                Per un'esperienza ancora più indulgente, provate la nostra Amatriciana, una pasta condita con salsa di pomodoro, guanciale, pecorino romano e peperoncino piccante. E non dimenticatevi di assaggiare la nostra Puntarelle alla Romana, una deliziosa insalata di puntarelle condita con acciughe, aglio, olio d'oliva e aceto.
-                Questi sono solo alcuni dei piatti prelibati che vi attendono nella nostra trattoria. Siamo certi che ogni boccone vi trasporterà direttamente nel cuore della cucina romana tradizionale.
+                    La nostra trattoria è rinomata per offrire una deliziosa selezione di piatti della cucina romana, preparati con passione e maestria. 
+                    Immergetevi nei sapori autentici di Roma con piatti iconici come la Carbonara, preparata con guanciale croccante, uova, pecorino romano e pepe nero. 
+                    Oppure gustatevi la Cacio e Pepe, un piatto semplice ma straordinario fatto con solo tre ingredienti: pecorino romano, pepe nero e pasta. 
+                    Per un’esperienza ancora più indulgente, provate la nostra Amatriciana, una pasta condita con salsa di pomodoro, guanciale, pecorino romano e un tocco di peperoncino. 
+                    E non dimenticate di assaggiare le Puntarelle alla Romana, una deliziosa insalata di puntarelle condite con acciughe, aglio, olio d’oliva e aceto. 
+                    Ma non è tutto: il nostro ristorante è anche una braceria, dove potrete gustare carni selezionate cotte alla griglia, servite nel rispetto della tradizione e con il sapore unico della brace. 
+                    Dalla tagliata di manzo alle costate, passando per succulenti salsicce e abbacchio alla scottadito, ogni piatto è pensato per esaltare i sapori genuini della carne. 
+                    Questi sono solo alcuni dei piaceri gastronomici che vi attendono nella nostra trattoria-braceria. Siamo certi che ogni boccone vi trasporterà direttamente nel cuore della cucina romana tradizionale.
                 </p>
-            </div>  
-            <div class="col-lg-6 col-md-6 div-immagine">
-                <img src="res/SH_coda_alla_vaccinara1.png" alt="" id="immagine-esterno">
-            </div>    
+            </div>
         </div>
         <div class="row titolo-sezione">
             <div class="col-lg-12 col-md-12">
@@ -85,8 +108,7 @@
         </div>
         <div class="row sezione"> 
             <div class="col-lg-12 col-md-12 div-immagine">
-                <!-- recensioni google -->
-                <!-- -->
+                <div class="elfsight-app-50074b99-59a1-47ff-b1a6-8db3c6b6cb84" data-elfsight-app-lazy></div>
             </div>    
         </div>
         <div class="row titolo-sezione">
@@ -115,7 +137,7 @@
         </div>
 
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 <script>
     // Seleziona la navbar
@@ -133,4 +155,7 @@
     // Aggiungi un listener per l'evento scroll
     window.addEventListener('scroll', handleScroll);
   </script>
+
+  <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
 </html>
