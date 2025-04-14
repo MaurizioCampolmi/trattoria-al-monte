@@ -1,6 +1,6 @@
 TODO:
 OK	- aggiungere meta alle foto 
-	- modificare estensione foto in webinf 
+OK	- modificare estensione foto in webinf 
 	- immagini troppo grandi di dmensioni (logo e carbonara) 
 OK	- js inutilizzato 
 OK	- background color nel footer
