@@ -11,11 +11,15 @@
     z-index: 1000;
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap; /* 👈 su schermi grandi NON vanno a capo */
     gap: 16px;
     padding: 10px 5vw;
 }
 
+@media (max-width: 768px) {
+    #navbar {
+        position: static; /* Rimuove la posizione sticky su schermi piccoli */
+    }
+}
 
 p{
     font-size: 18pt;

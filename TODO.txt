@@ -1,7 +1,9 @@
 TODO:
 OK	- aggiungere meta alle foto 
 OK	- modificare estensione foto in webinf 
-	- immagini troppo grandi di dmensioni (logo e carbonara) 
+OK	- immagini troppo grandi di dmensioni (logo e carbonara) 
 OK	- js inutilizzato 
 OK	- background color nel footer
 OK	- id nel link e nel logo ugtuale 
+------------------------------------------
+	- la navbar non si adatta per schermo piccolo 
