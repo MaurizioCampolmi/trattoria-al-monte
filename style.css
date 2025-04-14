@@ -4,14 +4,18 @@
     font-style: normal;
   }  
 
-.navbar {
+  #navbar {
     background-color: rgb(242, 253, 175);
-    height: fit-content;
-    position: sticky !important;
+    position: sticky;
     top: 0;
-    padding-top: 2px !important;
     z-index: 1000;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; /* 👈 su schermi grandi NON vanno a capo */
+    gap: 16px;
+    padding: 10px 5vw;
 }
+
 
 p{
     font-size: 18pt;
@@ -19,19 +23,20 @@ p{
 }
 
 #logo-navbar{
-    position: absolute;
-    margin-top: -15px;
-    height: 100%;
+    display: block;
+    height: 80px;
 }
 
-.navbar.fixed-top {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000; /* Assicura che la navbar sia sopra altri contenuti */
-    margin-right: 0px;
-    margin-left: 0px;
-  }
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(242, 253, 175);
+    padding: 0;
+    margin: 0;
+    height: auto; 
+}
+
 
 .menu-item {
     color: rgb(-0, 1, 3);

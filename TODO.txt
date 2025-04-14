@@ -1,7 +1,7 @@
 TODO:
-	- aggiungere meta alle foto
+OK	- aggiungere meta alle foto 
 	- modificare estensione foto in webinf 
 	- immagini troppo grandi di dmensioni (logo e carbonara) 
-	- js inutilizzato 
-	- background color nel footer
-	- id nel link e nel logo ugtuale 
+OK	- js inutilizzato 
+OK	- background color nel footer
+OK	- id nel link e nel logo ugtuale 
