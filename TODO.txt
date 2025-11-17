@@ -6,4 +6,6 @@ OK	- js inutilizzato
 OK	- background color nel footer
 OK	- id nel link e nel logo ugtuale 
 ------------------------------------------
-	- la navbar non si adatta per schermo piccolo 
+OK	- la navbar non si adatta per schermo piccolo 
+	- inserire nuove immagini
+	- burger menu
