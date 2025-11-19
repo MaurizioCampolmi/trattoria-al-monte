@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trattoria - Al Monte</title>
-    <!-- link per il collegare il foglio di stile -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- logo nel nome della scheda -->
-    <link rel="icon" href="res/logo-scheda.webp" type="image/x-icon">
-    
-    <!-- link per il collegare il font importato -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
-    
-    <!-- link per bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"></head>
+  <!-- Preconnect: velocizza caricamento di Bootstrap, Fonts, Elfsight -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://static.elfsight.com" crossorigin />
+
+  <!-- Preload CSS critico (Bootstrap) -->
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" as="style" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-rbsA2VBKQJTxJ4YhFfC0E5lZ8e2V/6tf4t7MTCnE+7yYtR5VHt7F4jGJpG5xXKp4"
+    crossorigin="anonymous"
+  />
+
+  <!-- Il tuo CSS viene dopo Bootstrap -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font (se li usi) -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <!-- Elfsight widget — async per non bloccare la pagina -->
+  <script src="https://static.elfsight.com/platform/platform.js" async></script>
+
+  <!-- Defer JS non critico: Bootstrap + tuo script -->
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6r..."
+    crossorigin="anonymous">
+  </script>
+
+  <script defer src="script.js"></script>
+
+  <!-- Suggerito per le immagini: AVIF o WebP automatici -->
+  <meta http-equiv="Accept-CH" content="DPR, Width, Viewport-Width" />
+  
+  <title>Il tuo sito ottimizzato</title>
+</head>
 <body>
     
     <div class="container-fluid">
@@ -127,7 +155,7 @@
         </div>
         <div class="row sezione"> 
             <div class="col-lg-6 col-md-6 div-immagine">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190236.22897849002!2d12.220999835464237!3d41.840332104445174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1325f1a618641689%3A0x311486e02e44931f!2sTrattoria%20Al%20Monte!5e0!3m2!1sit!2sit!4v1711399503205!5m2!1sit!2sit" width="600" height="450" style="border: 4px solid #484545;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190236.22897849002!2d12.220999835464237!3d41.840332104445174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1325f1a618641689%3A0x311486e02e44931f!2sTrattoria%20Al%20Monte!5e0!3m2!1sit!2sit!4v1711399503205!5m2!1sit!2sit" width="600" height="450" style="border: 4px solid #484545;" title="mappa" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>   
             <div class="col-lg-2 col-md-2"></div>
             <div class="col-lg-4 col-md-4" id="div-contatti">
